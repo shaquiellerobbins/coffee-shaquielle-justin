@@ -10,9 +10,18 @@ td, th {
 }
 
 h1 {
-    font-family: "Apple Chancery";
+    font-family: "Apple Chancery", serif;
 }
 
 h2{
-    font-family: "Apple Chancery";
+    font-family: "Apple Chancery", serif;
+}
+
+
+.docrob-tron {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 160px;
+     align-items: center;
 }
