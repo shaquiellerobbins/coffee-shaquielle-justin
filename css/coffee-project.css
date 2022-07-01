@@ -25,3 +25,12 @@ h2{
      height: 160px;
      align-items: center;
 }
+
+p {
+    border: .5px solid black;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #A38068;
+    color: white;
+    display: inline-block;
+}
