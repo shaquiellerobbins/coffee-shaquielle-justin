@@ -34,3 +34,11 @@ p {
     color: white;
     display: inline-block;
 }
+.col-4{
+    background-color: goldenrod;
+}
+.btn{
+    background-color: deeppink;
+    color: dodgerblue;
+    margin-top: 2px;
+}
