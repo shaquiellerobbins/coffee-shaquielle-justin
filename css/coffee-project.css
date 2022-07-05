@@ -4,41 +4,91 @@ table {
     margin: 15px 0;
 }
 
+
+
 td, th {
     border: 1px solid black;
     padding: 5px 10px;
 }
 
+.col-8{
+    background-color: black;
+    background-image:url("../images/steam.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+span{
+    color: gold;
+}
+
 h1 {
     font-family: "Apple Chancery", serif;
+    color: white;
+
 }
 
 h2{
     font-family: "Apple Chancery", serif;
+
 }
 
+label{
+    color: white;
+}
 
-.docrob-tron {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     height: 160px;
-     align-items: center;
+body{
+    background-color: black;
 }
 
 p {
-    border: .5px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     width: 100px;
-    background-color: #A38068;
+    background-color: black;
     color: white;
     display: inline-block;
 }
 .col-4{
-    background-color: goldenrod;
+    background-color: black;
 }
 .btn{
-    background-color: deeppink;
-    color: dodgerblue;
+    background-color: gold;
+    color: black;
     margin-top: 2px;
 }
+
+
+
+svg{
+    width:110%;
+    position:relative;
+    top:50%;
+    left:40%;
+    transform:translate(-50%,20%)
+
+}
+svg text{
+    font-family: arial, serif;
+    font-size:5rem;
+    stroke: gold;
+    stroke-width:2px;
+    fill:transparent;
+    animation:anim 3s infinite alternate;
+
+}
+@keyframes anim{
+    from{stroke-dasharray:0 70%;}
+    to{stroke-dasharray:50% 0;
+        stroke-dashoffset:10%;}
+}
+@media(max-width:400px){
+    svg{
+        width:440px;
+        left:30%;
+    }
+}
+
+
+
