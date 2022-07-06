@@ -1,8 +1,0 @@
-#home{
-    display: flex;
-    border-color: darkred;
-    border-style: double;
-    background-color: yellow;
-    max-height: 30px;
-    border-radius: 30px;
-}
