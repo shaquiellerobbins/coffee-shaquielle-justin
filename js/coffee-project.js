@@ -77,6 +77,8 @@ let coffees = [
 
 coffees.sort((a, b) => {
     return (b.id - a.id);
+
+
 });
 
 let bodyMainDiv = document.querySelector('#coffees');
@@ -89,3 +91,8 @@ bodyMainDiv.innerHTML = renderCoffees(coffees);
 roastSelection.addEventListener('change', updateCoffeesByRoast);
 submitButton.addEventListener('click', addACoffee);
 coffeeSearch.addEventListener('keyup', updateCoffeesByName);
+
+document.getElementById('cart').addEventListener('click', enterCart);
+function enterCart () {
+    window.location.assign("cart.html");
+}
